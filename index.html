@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Despesas</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-darke text-white">
+
+  <div class="container mt-4">
+    <div class="card bg-header border-light">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+          <img src="./assets/Ellipse.svg" alt="perfil" class="rounded-circle">
+          <span class="ml-3">bom dia, Verônica</span>
+        </div>
+        <div class="month d-flex ">
+          <span>abril</span>
+          <img src="./assets/ep_arrow-down.svg" alt="seta para baixo" >
+        </div>
+       
+        <div>
+          <button class="btn btn-link text-white"><i class="bi bi-arrow-down-up"></i></button>
+        </div>
+      </div>
+      <div class="card-body text-center">
+        <h4>saldo em conta</h4>
+        <h3>R$ 17.400</h3>
+        <i class="bi bi-eye"></i>
+        <div class="row mt-4">
+          <div class="col-6">
+            <span class="text-success"><i class="bi bi-plus-circle"></i> receitas</span>
+            <h5 class="text-success">R$ 30.800</h5>
+          </div>
+          <div class="col-6">
+            <span class="text-danger"><i class="bi bi-dash-circle"></i> despesas</span>
+            <h5 class="text-danger">R$ 13.400</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mt-4 sm-4 bg-purple">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <h5>despesas</h5>
+       
+        <button class="btn btn-link text-white"><i class="bi bi-plus-circle"></i></button>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex justify-content-between align-items-center bg-purple text-white">
+          seminários <span class="ml-auto">R$ 120,90</span>
+          <div class="ml-3">
+            <button class="btn btn-link text-white"><i class="bi bi-pencil"></i></button>
+            <button class="btn btn-link text-white"><i class="bi bi-trash"></i></button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center bg-purple text-white">
+          aulas <span class="ml-auto">R$ 320,00</span>
+          <div class="ml-3">
+            <button class="btn btn-link text-white"><i class="bi bi-pencil"></i></button>
+            <button class="btn btn-link text-white"><i class="bi bi-trash"></i></button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center bg-purple text-white">
+          holerites <span class="ml-auto">R$ 200,00</span>
+          <div class="ml-3">
+            <button class="btn btn-link text-white"><i class="bi bi-pencil"></i></button>
+            <button class="btn btn-link text-white"><i class="bi bi-trash"></i></button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center bg-purple text-white">
+          vendas <span class="ml-auto">R$ 200,00</span>
+          <div class="ml-3">
+            <button class="btn btn-link text-white"><i class="bi bi-pencil"></i></button>
+            <button class="btn btn-link text-white"><i class="bi bi-trash"></i></button>
+          </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center bg-purple text-white">
+          rede social <span class="ml-auto">R$ 408,90</span>
+          <div class="ml-3">
+            <button class="btn btn-link text-white"><i class="bi bi-pencil"></i></button>
+            <button class="btn btn-link text-white"><i class="bi bi-trash"></i></button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

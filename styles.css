@@ -1,0 +1,113 @@
+.bg-purple {
+    /* background-color: #6f42c1 !important; */
+    background-color: white !important;
+  }
+  .bg-darke{
+    background-color: #672488!important;
+  }
+  .bg-header{
+    color: $yellow-300;
+    background-color: $indigo-900;
+  }
+  h4{
+    color: #adb5bd;  
+  }
+  .month{
+  gap:8px !important;
+  margin-right: 120px
+  }
+  @media (max-width: 576px) {
+    .month {
+      display: none !important;
+    }
+  }
+  
+  .card-header .btn-link {
+    font-size: 1.5rem;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-group-item .btn-link {
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+  
+  .rounded-circle {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .text-white {
+    color: black!important;
+  }
+  
+  .text-success {
+    color: #28a745 !important;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .card-body h4 {
+      font-size: 1rem;
+    }
+    
+    .card-body h3 {
+      font-size: 1.5rem;
+    }
+  
+    .card-body .col-6 {
+      margin-bottom: 1rem;
+    }
+  
+    .list-group-item .btn-link {
+      font-size: 1rem;
+      margin-left: 5px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .card-header .d-flex {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .card-header .btn-link {
+      font-size: 1.2rem;
+    }
+  
+    .card-body h4 {
+      font-size: 0.9rem;
+    }
+    
+    .card-body h3 {
+      font-size: 1.2rem;
+    }
+  
+    .card-body .col-6 h5 {
+      font-size: 0.9rem;
+    }
+  
+    .list-group-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .list-group-item span {
+      margin-top: 0.5rem;
+    }
+  
+    .list-group-item .btn-link {
+      font-size: 0.8rem;
+      margin-left: 5px;
+    }
+  }
+  
